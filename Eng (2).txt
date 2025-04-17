@@ -32,10 +32,10 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 local Window = Fluent:CreateWindow({
-    Title = "SwitchCat Hub  [ Premium ] By: ziugpro",
+    Title = "SwitchCat Hub  [ Beta ] By: ziugpro",
     SubTitle = "Version: Arise Crossover",
     TabWidth = 130,
-    Size = UDim2.fromOffset(510, 350),
+    Size = UDim2.fromOffset(520, 360),
     Acrylic = true,
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl
@@ -133,7 +133,7 @@ local Dropdown = Tabs.Main:AddDropdown("Dropdown", {
     Default = 1,
 })
 
-local ToggleProkeu = Tabs.Main:AddToggle("ToggleProkeu", {Title = "Auto Click Keybind ( Beta )", Description = "This feature is under development and currently has many bugs", Default = false})
+local ToggleProkeu = Tabs.Main:AddToggle("ToggleProkeu", {Title = "Auto Click Keybind", Description = "This feature is under development and currently has many bugs", Default = false})
 ToggleProkeu:OnChanged(function(Value)
     _G.ToggleProkeu = Value
 end)
@@ -165,7 +165,7 @@ spawn(function()
         end
     end
 end)
-local ToggleProNrobro = Tabs.Main:AddToggle("ToggleProNrobro", {Title = "Auto Click 0.1s ( Premium )", Default = false})
+local ToggleProNrobro = Tabs.Main:AddToggle("ToggleProNrobro", {Title = "Auto Click 0.1s", Default = false})
 ToggleProNrobro:OnChanged(function(Value)
     _G.ToggleProNrobro = Value
 end)
@@ -193,7 +193,7 @@ spawn(function()
         end
     end
 end)
-local toggleCommml = Tabs.Main:AddToggle("toggleCommml", {Title = "Auto Comlect ( Premium )", Description = "This feature is currently undergoing testing and is still in development, so you may encounter numerous bugs or unexpected behaviors during use", Default = false})
+local toggleCommml = Tabs.Main:AddToggle("toggleCommml", {Title = "Auto Comlect", Description = "This feature is currently undergoing testing and is still in development, so you may encounter numerous bugs or unexpected behaviors during use", Default = false})
 
 toggleCommml:OnChanged(function(Value)
     _G.toggleCommml = Value
@@ -245,7 +245,7 @@ spawn(function()
 end)
 
 
-local ToggksdhleMove = Tabs.Main:AddToggle("ToggksdhleMove", {Title = "Auto Farm All Mob v2 ( Premium )", Description = "Farm Super Fast Without Errors And This Feature Is Completed", Default = false})
+local ToggksdhleMove = Tabs.Main:AddToggle("ToggksdhleMove", {Title = "Auto Farm All Mob v2", Description = "Farm Super Fast Without Errors And This Feature Is Completed", Default = false})
 ToggksdhleMove:OnChanged(function(Value)
     _G.ToggksdhleMove = Value
 end)
@@ -275,7 +275,7 @@ spawn(function()
         end
     end
 end)
-local ToggleMovev2 = Tabs.Main:AddToggle("ToggleMovev2", {Title = "Farm All Mob ( Beta )", Default = false})
+local ToggleMovev2 = Tabs.Main:AddToggle("ToggleMovev2", {Title = "Farm All Mob", Default = false})
 ToggleMovev2:OnChanged(function(Value)
     _G.ToggleMovev2 = Value
 end)
@@ -306,7 +306,7 @@ spawn(function()
         end
     end
 end)
-local Maikwhrn = Tabs.Main:AddSection("Mob Farming ( Premium )")
+local Maikwhrn = Tabs.Main:AddSection("Mob Farming")
 local Autogay = Tabs.Main:AddToggle("Autogay", {Title = "Auto Farm Gonshee", Default = false})
 Autogay:OnChanged(function(Value)
     _G.Autogay = Value
